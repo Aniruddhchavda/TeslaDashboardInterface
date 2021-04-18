@@ -34,3 +34,23 @@ https://aniruddhchavda.github.io/p2AniruddhChavda
   <li>Tachometer and speedometer are far away</li>
 </ul>
 
+<h1>Part B</h1>
+<h3>Most Common Features/Uses</h3>
+<ul>
+  <li>Main Use : Keep an eye on the speed !</li>
+  <li>Check the range(Fuel Left)</li>
+  <li>Check the mileage</li>
+</ul>
+
+<h3>Rare Uses</h3>
+<ul>
+  <li>Check tire pressure</li>
+  <li>Check RPM(Tachometer)</li>
+  <li>Check Engine Temp</li>
+</ul>
+
+<h3>Common mistakes one can do with the current design</h3>
+<ul>
+  <li>One can easily run out of fuel if proper range is not displayed.</li>
+  <li>Get distracted while trying to find the right information.</li>
+<ul>
