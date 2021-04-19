@@ -54,3 +54,6 @@ https://aniruddhchavda.github.io/p2AniruddhChavda
   <li>One can easily run out of fuel if proper range is not displayed.</li>
   <li>Get distracted while trying to find the right information.</li>
 <ul>
+  
+  <h3>Sketch of my design</h3>
+<img src="Images/sketch.jpg">
