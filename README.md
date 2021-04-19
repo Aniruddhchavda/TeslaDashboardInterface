@@ -62,3 +62,11 @@ https://aniruddhchavda.github.io/p2AniruddhChavda
 
 <h3>Working GIF Image</h3>
 <img src="Images/p2AniruddhChavda.gif">
+
+<h3>Benefits of this design</h3>
+<ul>
+  <li>Completely Digital Design</li>
+  <li>Big Speeedo and tachometer</li>
+  <li>Smaller Fuel and Engine heat gauge</li>
+  <li>Music Player</li>
+</ul>
