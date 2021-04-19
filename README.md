@@ -57,3 +57,8 @@ https://aniruddhchavda.github.io/p2AniruddhChavda
   
   <h3>Sketch of my design</h3>
 <img src="Images/sketch.jpg">
+
+<h2>Part A</h2>
+
+<h3>Working GIF Image</h3>
+<img src="Images/p2AniruddhChavda.gif">
