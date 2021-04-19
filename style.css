@@ -1,0 +1,56 @@
+html , body {
+  font-family: 'Open Sans', sans-serif;
+	float:left;
+	background-color: grey;
+}
+
+body{
+	border: 15px solid orange;
+	border-radius: 5%;
+	background-color: black;
+	float:left;
+}
+
+#canvas {
+	 width: 35%;
+	 height: 35%;
+}
+
+#viewport {
+	height: : 30%;
+	width: 30%;
+}
+
+#chart_div{
+	float:right;
+}
+
+#temp{
+	float:left;
+}
+
+#icons{
+	background-color: #FFF;
+
+  float: left;
+
+  width : 80%;
+
+	margin-left: 5%;
+
+	padding : 2%;
+}
+
+i{
+	margin-left: 10%;
+}
+
+#img{
+	heigth : 35px;
+	width : 40px;
+}
+
+#spotify{
+	float:right;
+	margin-top: 20px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tesla Speedometer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/66c19d126d.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['gauge']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Label', 'Value'],
+          ['Fuel', 100],
+          ['Engine Temp',100],
+        ]);
+
+        var options = {
+          width: 400, height: 400,
+          minorTicks: 10
+        };
+
+        var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+
+        setInterval(function() {
+          data.setValue(0, 1, Math.floor(Math.random()*100));
+          chart.draw(data, options);
+        }, 400);
+
+        setInterval(function() {
+          data.setValue(1, 1, Math.floor(Math.random()*100));
+          chart.draw(data, options);
+        }, 5000);
+
+      }
+    </script>
+
+  </head>
+  <style>
+          @font-face {
+            font-family: 'MuseoSans_900-webfont';
+            src: url('fonts/MuseoSans_900-webfont.ttf');
+        }
+</style>
+  <body>
+
+    <canvas id="viewport"></canvas>
+    <script src="teslacanvas2.js"></script>
+
+    <canvas id="canvas"></canvas>
+    <script src="teslahud.js"></script>
+
+
+
+    <div id="chart_div">
+
+    </div>
+
+    <!-- <div id="spotify">
+    <iframe src="https://open.spotify.com/embed/track/5QO79kh1waicV47BqGRL3g" width="300" height="330" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div> -->
+
+
+    <div  id="temp">
+    <p style="color:white;">Temp : 52 F</p>
+    <p style="color:white;">Range : 341 Miles</p>
+
+  </div>
+
+  <div id="icons">
+
+    <i class="fas fa-gas-pump fa-2x"></i>
+
+    <i class="fas fa-oil-can fa-2x"></i>
+
+    <i class="fas fa-car-battery fa-2x"></i>
+
+    <i class="fas fa-temperature-high fa-2x"></i>
+
+
+    <i><img id="img" src="https://img.icons8.com/wired/64/000000/engine.png"/></i>
+
+
+    <i><img id="img" src="https://img.icons8.com/metro/26/000000/passenger.png"/></i>
+
+
+    <i><img id="img" src="https://img.icons8.com/wired/64/000000/cruise-control-on.png"/></i>
+
+  </div>
+
+
+  </body>
+</html>
