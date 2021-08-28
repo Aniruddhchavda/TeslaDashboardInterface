@@ -1,9 +1,5 @@
-<h1>HCI CS5331 Spring 21</h1>
 
-<h1>Aniruddh Sanjaysinh Chavda</h1>
-
-<h2>Presentation URL</h2>
-https://aniruddhchavda.github.io/tesladashboardinterface
+https://aniruddhchavda.github.io/TeslaDashboardInterface/
 
 
 <h1>PART C</h1>
