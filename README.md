@@ -3,7 +3,7 @@
 <h1>Aniruddh Sanjaysinh Chavda</h1>
 
 <h2>Presentation URL</h2>
-https://aniruddhchavda.github.io/p2AniruddhChavda
+https://aniruddhchavda.github.io/tesladashboardinterface
 
 
 <h1>PART C</h1>
